@@ -15,7 +15,7 @@ def base(sql):  # Ushbu funksiya MOdan foydalanish uchun yoziladigan kodlarni ix
     try:
         conn = psycopg2.connect(user="postgres",
                                 host="answerdb-1.c5bne3vsdefk.us-east-2.rds.amazonaws.com",
-                                password='adgjmp77',
+                                password='password',
                                 port="5432",
                                 database="postgres")
         if 'select' in sql.lower() and 'from' in sql.lower():
